@@ -35,7 +35,7 @@ Material:
     - _ShadowForce2: 0
     - _ShadowForce3: 0
     - _ShadowForce4: 0
-    - __dirty: 0
+    - __dirty: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 0}
     - _LightColor: {r: 1, g: 1, b: 1, a: 0}
