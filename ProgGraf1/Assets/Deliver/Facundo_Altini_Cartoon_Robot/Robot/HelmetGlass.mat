@@ -33,7 +33,8 @@ Material:
     - _AlphaCutoff: 0.5
     - _ChromaticAberration: 0.1
     - _Float0: 1
-    - _Float1: 0.69392264
+    - _Float1: 0.5
+    - _Float2: 0.95
     - _TransAmbient: 0.1
     - _TransDirect: 0.9
     - _TransNormal: 0.5
@@ -42,7 +43,7 @@ Material:
     - _TransShadow: 0.5
     - _TransStrength: 1
     - _Translucency: 1
-    - __dirty: 1
+    - __dirty: 0
     m_Colors:
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []

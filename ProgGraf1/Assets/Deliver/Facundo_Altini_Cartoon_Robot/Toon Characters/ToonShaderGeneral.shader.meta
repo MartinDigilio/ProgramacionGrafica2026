@@ -1,9 +1,8 @@
 fileFormatVersion: 2
-guid: ba7ac68af86fa40c1a4732678cfaa7c4
+guid: 74b0bceaed9daf844b422fdd221a27eb
 ShaderImporter:
   externalObjects: {}
-  defaultTextures:
-  - _Shirts_textureSet_Normal: {fileID: 2800000, guid: a389cb3acbfc9084ba83a1552bd6c3bd, type: 3}
+  defaultTextures: []
   nonModifiableTextures: []
   preprocessorOverride: 0
   userData: 
