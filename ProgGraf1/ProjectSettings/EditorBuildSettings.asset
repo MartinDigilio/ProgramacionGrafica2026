@@ -5,34 +5,61 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Island.unity
     guid: 2cbefeef7d2526a439c712a56eeaeab5
+  - enabled: 0
+    path: Assets/Scenes/Road.unity
+    guid: 225ea452487199d44aebeda549bb69f9
+  - enabled: 0
+    path: Assets/Scenes/Room.unity
+    guid: e4f8f6ad1d0b3d64ead6350da4a36f69
+  - enabled: 0
+    path: Assets/Scenes/SinCity.unity
+    guid: f50aa837b5c69a34096b5473b7dcfd77
+  - enabled: 0
+    path: Assets/Scenes/Cartoon.unity
+    guid: 90d97b0b831b0be49825b73c093b364c
+  - enabled: 0
+    path: Assets/Scenes/Marker.unity
+    guid: a5e4babc55a144e47b4743c423f26192
+  - enabled: 0
+    path: Assets/Scenes/Ghost.unity
+    guid: 75b0b2c88e9f7e9498d75241c9c50a87
+  - enabled: 0
+    path: Assets/Scenes/Jump.unity
+    guid: 8e0e0d50911d3464c9362971ac6896d7
+  - enabled: 0
+    path: Assets/Scenes/Street.unity
+    guid: 0da0f79b971fdc94c8587763574b0c76
+  - enabled: 1
+    path: Assets/Deliver/Agustin_Praszek_Ghost_Jump/Jump/Jump.unity
+    guid: 895ce237fd77b4e468850d5d71a3bc4a
+  - enabled: 1
+    path: Assets/Deliver/Agustin_Praszek_Ghost_Jump/Ghost/Ghost.unity
+    guid: a2a75793b1612d34793b6cfd6fe707de
   - enabled: 1
     path: Assets/Deliver/Facundo_Altini_Cartoon_Robot/Robot/Hologram.unity
     guid: c9c64d103a9b5b34f9ddd601c21aa675
   - enabled: 1
-    path: Assets/Scenes/Road.unity
-    guid: 225ea452487199d44aebeda549bb69f9
+    path: Assets/Deliver/Facundo_Altini_Cartoon_Robot/Toon Characters/Cartoon.unity
+    guid: ce4e829073fbf3f4796a0dcdabad9d05
   - enabled: 1
-    path: Assets/Scenes/Room.unity
-    guid: e4f8f6ad1d0b3d64ead6350da4a36f69
+    path: Assets/Deliver/Gian_Schiavini_Marker/Marker.unity
+    guid: ebac3fb0678104645b585ce7cc6eeba1
   - enabled: 1
-    path: Assets/Scenes/SinCity.unity
-    guid: f50aa837b5c69a34096b5473b7dcfd77
+    path: Assets/Deliver/Gian_Schiavini_Room/Room.unity
+    guid: 111bb39672d7c144eb1aa0da188d22b3
   - enabled: 1
-    path: Assets/Scenes/Cartoon.unity
-    guid: 90d97b0b831b0be49825b73c093b364c
+    path: Assets/Deliver/Insaurralde_Alejo_Island/Island.unity
+    guid: dfc3a13c201d61344ab2eadb3383ec9c
   - enabled: 1
-    path: Assets/Scenes/Marker.unity
-    guid: a5e4babc55a144e47b4743c423f26192
+    path: Assets/Deliver/Insaurralde_Alejo_Street/Street.unity
+    guid: 0f3efcd5505728f449d862fda4845a54
   - enabled: 1
-    path: Assets/Scenes/Ghost.unity
-    guid: 75b0b2c88e9f7e9498d75241c9c50a87
+    path: Assets/Deliver/Martin_Digilio_PisoAldea/Martin_Digilio_PisoAldea.unity
+    guid: 0643ce657c1f71e4a972c415baf16b92
   - enabled: 1
-    path: Assets/Scenes/Jump.unity
-    guid: 8e0e0d50911d3464c9362971ac6896d7
-  - enabled: 1
-    path: Assets/Scenes/Street.unity
-    guid: 0da0f79b971fdc94c8587763574b0c76
+    path: Assets/Deliver/Martin_Digilio_SinCity/Martin_Digilio_SinCity.unity
+    guid: 55cc27689c3891c4ab4c5779e3ace1ee
   m_configObjects: {}
