@@ -31,8 +31,8 @@ Material:
     m_Ints: []
     m_Floats:
     - _Float0: 0
-    - _ShadowStrength1: 0.427
-    - _ShadowStrength2: -0.12
+    - _ShadowStrength1: 0
+    - _ShadowStrength2: -1
     - __dirty: 0
     m_Colors:
     - _Color0: {r: 1, g: 1, b: 1, a: 0}
