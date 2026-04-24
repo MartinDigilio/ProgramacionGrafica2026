@@ -33,14 +33,20 @@ EditorBuildSettings:
     path: Assets/Scenes/Street.unity
     guid: 0da0f79b971fdc94c8587763574b0c76
   - enabled: 1
-    path: Assets/Deliver/Agustin_Praszek_Ghost_Jump/Jump/Jump.unity
-    guid: 895ce237fd77b4e468850d5d71a3bc4a
-  - enabled: 1
-    path: Assets/Deliver/Agustin_Praszek_Ghost_Jump/Ghost/Ghost.unity
-    guid: a2a75793b1612d34793b6cfd6fe707de
+    path: Assets/Deliver/Insaurralde_Alejo_Island/Island.unity
+    guid: dfc3a13c201d61344ab2eadb3383ec9c
   - enabled: 1
     path: Assets/Deliver/Facundo_Altini_Cartoon_Robot/Robot/Hologram.unity
     guid: c9c64d103a9b5b34f9ddd601c21aa675
+  - enabled: 1
+    path: Assets/Deliver/Martin_Digilio_PisoAldea/Martin_Digilio_PisoAldea.unity
+    guid: 0643ce657c1f71e4a972c415baf16b92
+  - enabled: 1
+    path: Assets/Deliver/Gian_Schiavini_Room/Room.unity
+    guid: 111bb39672d7c144eb1aa0da188d22b3
+  - enabled: 1
+    path: Assets/Deliver/Martin_Digilio_SinCity/Martin_Digilio_SinCity.unity
+    guid: 55cc27689c3891c4ab4c5779e3ace1ee
   - enabled: 1
     path: Assets/Deliver/Facundo_Altini_Cartoon_Robot/Toon Characters/Cartoon.unity
     guid: ce4e829073fbf3f4796a0dcdabad9d05
@@ -48,18 +54,12 @@ EditorBuildSettings:
     path: Assets/Deliver/Gian_Schiavini_Marker/Marker.unity
     guid: ebac3fb0678104645b585ce7cc6eeba1
   - enabled: 1
-    path: Assets/Deliver/Gian_Schiavini_Room/Room.unity
-    guid: 111bb39672d7c144eb1aa0da188d22b3
+    path: Assets/Deliver/Agustin_Praszek_Ghost_Jump/Ghost/Ghost.unity
+    guid: a2a75793b1612d34793b6cfd6fe707de
   - enabled: 1
-    path: Assets/Deliver/Insaurralde_Alejo_Island/Island.unity
-    guid: dfc3a13c201d61344ab2eadb3383ec9c
+    path: Assets/Deliver/Agustin_Praszek_Ghost_Jump/Jump/Jump.unity
+    guid: 895ce237fd77b4e468850d5d71a3bc4a
   - enabled: 1
     path: Assets/Deliver/Insaurralde_Alejo_Street/Street.unity
     guid: 0f3efcd5505728f449d862fda4845a54
-  - enabled: 1
-    path: Assets/Deliver/Martin_Digilio_PisoAldea/Martin_Digilio_PisoAldea.unity
-    guid: 0643ce657c1f71e4a972c415baf16b92
-  - enabled: 1
-    path: Assets/Deliver/Martin_Digilio_SinCity/Martin_Digilio_SinCity.unity
-    guid: 55cc27689c3891c4ab4c5779e3ace1ee
   m_configObjects: {}
