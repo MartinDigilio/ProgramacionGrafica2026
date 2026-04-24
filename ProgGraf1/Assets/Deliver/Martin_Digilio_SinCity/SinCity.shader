@@ -184,7 +184,7 @@ Shader "SinCity"
 }
 /*ASEBEGIN
 Version=18900
-0;453.6;1171.8;321.8;1659.607;7.905163;1.507332;True;False
+0;73.6;935;423;931.6506;125.2452;1.535733;False;False
 Node;AmplifyShaderEditor.TexturePropertyNode;38;-2395.251,557.0475;Inherit;True;Property;_Texture0;Texture 0;5;0;Create;True;0;0;0;False;0;False;None;8178c5ce4aa3d5341804ce7d0ff18428;True;white;Auto;Texture2D;-1;0;2;SAMPLER2D;0;SAMPLERSTATE;1
 Node;AmplifyShaderEditor.SamplerNode;39;-2072.662,560.8916;Inherit;True;Property;_TextureSample0;Texture Sample 0;5;0;Create;True;0;0;0;False;0;False;-1;None;None;True;0;False;white;Auto;False;Object;-1;Auto;Texture2D;8;0;SAMPLER2D;;False;1;FLOAT2;0,0;False;2;FLOAT;0;False;3;FLOAT2;0,0;False;4;FLOAT2;0,0;False;5;FLOAT;1;False;6;FLOAT;0;False;7;SAMPLERSTATE;;False;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.WorldSpaceLightDirHlpNode;5;-1783.063,351.2408;Inherit;False;False;1;0;FLOAT;0;False;4;FLOAT3;0;FLOAT;1;FLOAT;2;FLOAT;3
@@ -195,14 +195,14 @@ Node;AmplifyShaderEditor.RangedFloatNode;21;-1284.95,1020.213;Inherit;False;Prop
 Node;AmplifyShaderEditor.RegisterLocalVarNode;14;-1335.018,408.178;Inherit;False;dotResault;-1;True;1;0;FLOAT;0;False;1;FLOAT;0
 Node;AmplifyShaderEditor.RangedFloatNode;16;-1263.092,665.1193;Inherit;False;Property;_ShadowForce1;ShadowForce1;0;0;Create;True;0;0;0;False;0;False;0;0;0;1;0;1;FLOAT;0
 Node;AmplifyShaderEditor.RangedFloatNode;25;-1293.14,1398.922;Inherit;False;Property;_ShadowForce3;ShadowForce3;3;0;Create;True;0;0;0;False;0;False;0;0;0;1;0;1;FLOAT;0
-Node;AmplifyShaderEditor.TFHCRemapNode;26;-936.031,1405.89;Inherit;False;5;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;1;False;3;FLOAT;0;False;4;FLOAT;1;False;1;FLOAT;0
-Node;AmplifyShaderEditor.GetLocalVarNode;23;-988.7365,1219.093;Inherit;False;14;dotResault;1;0;OBJECT;;False;1;FLOAT;0
-Node;AmplifyShaderEditor.TFHCRemapNode;22;-927.8411,1027.181;Inherit;False;5;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;1;False;3;FLOAT;0;False;4;FLOAT;1;False;1;FLOAT;0
-Node;AmplifyShaderEditor.GetLocalVarNode;18;-966.8788,863.9988;Inherit;False;14;dotResault;1;0;OBJECT;;False;1;FLOAT;0
+Node;AmplifyShaderEditor.TFHCRemapNode;17;-905.9834,672.0872;Inherit;False;5;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;1;False;3;FLOAT;0;False;4;FLOAT;1;False;1;FLOAT;0
+Node;AmplifyShaderEditor.GetLocalVarNode;31;-994.1552,1953.946;Inherit;False;14;dotResault;1;0;OBJECT;;False;1;FLOAT;0
 Node;AmplifyShaderEditor.GetLocalVarNode;27;-996.9265,1597.802;Inherit;False;14;dotResault;1;0;OBJECT;;False;1;FLOAT;0
 Node;AmplifyShaderEditor.TFHCRemapNode;30;-933.2598,1762.034;Inherit;False;5;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;1;False;3;FLOAT;0;False;4;FLOAT;1;False;1;FLOAT;0
-Node;AmplifyShaderEditor.GetLocalVarNode;31;-994.1552,1953.946;Inherit;False;14;dotResault;1;0;OBJECT;;False;1;FLOAT;0
-Node;AmplifyShaderEditor.TFHCRemapNode;17;-905.9834,672.0872;Inherit;False;5;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;1;False;3;FLOAT;0;False;4;FLOAT;1;False;1;FLOAT;0
+Node;AmplifyShaderEditor.TFHCRemapNode;22;-927.8411,1027.181;Inherit;False;5;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;1;False;3;FLOAT;0;False;4;FLOAT;1;False;1;FLOAT;0
+Node;AmplifyShaderEditor.GetLocalVarNode;18;-966.8788,863.9988;Inherit;False;14;dotResault;1;0;OBJECT;;False;1;FLOAT;0
+Node;AmplifyShaderEditor.GetLocalVarNode;23;-988.7365,1219.093;Inherit;False;14;dotResault;1;0;OBJECT;;False;1;FLOAT;0
+Node;AmplifyShaderEditor.TFHCRemapNode;26;-936.031,1405.89;Inherit;False;5;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;1;False;3;FLOAT;0;False;4;FLOAT;1;False;1;FLOAT;0
 Node;AmplifyShaderEditor.StepOpNode;20;-682.4146,1110.22;Inherit;False;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0
 Node;AmplifyShaderEditor.StepOpNode;28;-687.8334,1845.073;Inherit;False;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0
 Node;AmplifyShaderEditor.StepOpNode;24;-690.6045,1488.929;Inherit;False;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0
@@ -222,10 +222,10 @@ WireConnection;6;0;39;0
 WireConnection;7;0;5;0
 WireConnection;7;1;6;0
 WireConnection;14;0;7;0
-WireConnection;26;0;25;0
-WireConnection;22;0;21;0
-WireConnection;30;0;29;0
 WireConnection;17;0;16;0
+WireConnection;30;0;29;0
+WireConnection;22;0;21;0
+WireConnection;26;0;25;0
 WireConnection;20;0;22;0
 WireConnection;20;1;23;0
 WireConnection;28;0;30;0
@@ -247,4 +247,4 @@ WireConnection;13;0;12;0
 WireConnection;13;1;42;0
 WireConnection;0;13;13;0
 ASEEND*/
-//CHKSM=45B7D31CB3DEFD0D830EB7C5FFE298F7662C3513
+//CHKSM=4D9B03D976BAAC28D8E3E2F39C7D7F835963C0D9
