@@ -48,7 +48,7 @@ Material:
     m_Floats:
     - _Float0: 1
     - _Float1: 1
-    - _Scalefloat: 0.05
+    - _Scalefloat: 0
     - __dirty: 0
     m_Colors:
     - _Vector0: {r: 0.91, g: 0.97, b: 1, a: 1}

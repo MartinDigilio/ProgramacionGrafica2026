@@ -40,7 +40,7 @@ Material:
     - _WaveHeight: 1
     - _WaveSpeed: 0.2
     - _Wavetile: 0
-    - __dirty: 1
+    - __dirty: 0
     m_Colors:
     - _WaveDirection: {r: 0, g: 1, b: 0, a: 0}
     - _WaveUp: {r: 0, g: 1, b: 0, a: 0}

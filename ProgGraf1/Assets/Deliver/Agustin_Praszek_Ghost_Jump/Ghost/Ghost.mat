@@ -11,7 +11,7 @@ Material:
   m_Shader: {fileID: 4800000, guid: 162da93e87fca924289236a12a726f3d, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
-  m_LightmapFlags: 0
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -20,15 +20,25 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: b9482f118923f464baee0541052caf27, type: 3}
+        m_Scale: {x: 1, y: -4.03}
+        m_Offset: {x: 0, y: 0}
+    - _fantasmano:
+        m_Texture: {fileID: 2800000, guid: 9f45941657052fa4b92f3656661e9050, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _texcoord:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Offset: 0.74
-    - _OffsetEmisive: 0.62
+    - _Float1: 0
+    - _Offset: 0.98
+    - _OffsetEmisive: 0.38
     - _Speed: 1
+    - _Speedoscilacion: 0.2
     - __dirty: 0
     m_Colors:
     - _Tiling: {r: 5, g: 5, b: 0, a: 0}
