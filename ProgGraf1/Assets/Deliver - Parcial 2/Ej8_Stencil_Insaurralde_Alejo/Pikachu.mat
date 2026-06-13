@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: LitCartaStencil 2
+  m_Name: Pikachu
   m_Shader: {fileID: 4800000, guid: 9800955d6d3fd434e9c6cf81e714a5aa, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -19,7 +19,15 @@ Material:
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs: []
+    m_TexEnvs:
+    - _Sprite:
+        m_Texture: {fileID: 2800000, guid: 4c99fa7e0dfa3df46a0e7a32054c9200, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
     - __dirty: 0

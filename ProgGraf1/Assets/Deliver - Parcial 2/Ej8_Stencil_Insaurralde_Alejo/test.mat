@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: LitCartaStencil 1
-  m_Shader: {fileID: 4800000, guid: 9800955d6d3fd434e9c6cf81e714a5aa, type: 3}
+  m_Name: test
+  m_Shader: {fileID: 4800000, guid: bd51511ed5fa54648a540fbbbbe195e8, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -23,6 +23,5 @@ Material:
     m_Ints: []
     m_Floats:
     - __dirty: 0
-    m_Colors:
-    - _Color1: {r: 1, g: 0, b: 0, a: 0}
+    m_Colors: []
   m_BuildTextureStacks: []
