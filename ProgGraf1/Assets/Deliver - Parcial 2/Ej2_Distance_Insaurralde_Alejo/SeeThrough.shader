@@ -79,9 +79,9 @@ Shader "SeeThrough"
 }
 /*ASEBEGIN
 Version=18900
-0;73.6;848.6;285.4;2514.522;-148.2633;1.634436;True;False
+7.2;80.8;779.8;438.2;1143.187;207.0575;2.16436;True;False
 Node;AmplifyShaderEditor.ScreenPosInputsNode;18;-2030.645,202.3181;Float;False;0;False;0;5;FLOAT4;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
-Node;AmplifyShaderEditor.Vector2Node;8;-1816.54,498.6007;Inherit;False;Global;CutoutPos;CutoutPos;4;0;Create;True;0;0;0;False;0;False;0,0;0.4217852,0.1928385;0;3;FLOAT2;0;FLOAT;1;FLOAT;2
+Node;AmplifyShaderEditor.Vector2Node;8;-1816.54,498.6007;Inherit;False;Global;CutoutPos;CutoutPos;4;0;Create;True;0;0;0;False;0;False;0,0;0,0;0;3;FLOAT2;0;FLOAT;1;FLOAT;2
 Node;AmplifyShaderEditor.ComponentMaskNode;36;-1825.149,404.6341;Inherit;False;True;True;False;False;1;0;FLOAT4;0,0,0,0;False;1;FLOAT2;0
 Node;AmplifyShaderEditor.ScreenParams;15;-1780.778,688.5655;Inherit;False;0;5;FLOAT4;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.SimpleSubtractOpNode;37;-1624.386,408.8137;Inherit;False;2;0;FLOAT2;0,0;False;1;FLOAT2;0,0;False;1;FLOAT2;0
@@ -91,9 +91,9 @@ Node;AmplifyShaderEditor.SimpleDivideOpNode;17;-1463.397,686.4772;Inherit;False;
 Node;AmplifyShaderEditor.WireNode;43;-1387.169,397.0753;Inherit;False;1;0;FLOAT;0;False;1;FLOAT;0
 Node;AmplifyShaderEditor.SimpleDivideOpNode;40;-1357.56,414.9652;Inherit;False;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0
 Node;AmplifyShaderEditor.WireNode;44;-1258.169,394.0753;Inherit;False;1;0;FLOAT;0;False;1;FLOAT;0
+Node;AmplifyShaderEditor.RangedFloatNode;10;-866.7756,297;Inherit;False;Global;CutoutSize;Cutout Size;3;0;Create;True;0;0;0;False;0;False;0;0;0;0;0;1;FLOAT;0
 Node;AmplifyShaderEditor.RangedFloatNode;9;-867.7756,368;Inherit;False;Global;Falloffsize;Falloff size;4;0;Create;True;0;0;0;False;0;False;0;0;0;0;0;1;FLOAT;0
 Node;AmplifyShaderEditor.DynamicAppendNode;41;-1203.682,406.3574;Inherit;False;FLOAT2;4;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;0;False;3;FLOAT;0;False;1;FLOAT2;0
-Node;AmplifyShaderEditor.RangedFloatNode;10;-866.7756,297;Inherit;False;Global;CutoutSize;Cutout Size;3;0;Create;True;0;0;0;False;0;False;0;0.1;0;0;0;1;FLOAT;0
 Node;AmplifyShaderEditor.SimpleAddOpNode;45;-667.0117,365.849;Inherit;False;2;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0
 Node;AmplifyShaderEditor.Vector2Node;6;-921.9606,-52.0358;Inherit;False;Property;_TCTiling;T.C. Tiling;1;0;Create;True;0;0;0;False;0;False;0,0;0,0;0;3;FLOAT2;0;FLOAT;1;FLOAT;2
 Node;AmplifyShaderEditor.Vector2Node;7;-921.9606,64.96419;Inherit;False;Property;_TCOffset;T.C. Offset;3;0;Create;True;0;0;0;False;0;False;0,0;0,0;0;3;FLOAT2;0;FLOAT;1;FLOAT;2
@@ -131,4 +131,4 @@ WireConnection;34;0;27;0
 WireConnection;0;0;1;0
 WireConnection;0;10;34;0
 ASEEND*/
-//CHKSM=2924EBB7BDF53322591BBC959577A3699EB8E65C
+//CHKSM=652C4733AFF940D8129017B313F87D0C2F2E7F7E

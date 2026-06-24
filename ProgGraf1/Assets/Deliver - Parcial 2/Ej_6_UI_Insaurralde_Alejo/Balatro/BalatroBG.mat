@@ -30,7 +30,7 @@ Material:
     - _CustomExpSpeed: -2.37
     - _Float3: 2
     - _PixelFilter: 300
-    - _SwirlScale: 40
+    - _SwirlScale: 49.56
     - __dirty: 0
     - _speed: 0.1
     m_Colors:

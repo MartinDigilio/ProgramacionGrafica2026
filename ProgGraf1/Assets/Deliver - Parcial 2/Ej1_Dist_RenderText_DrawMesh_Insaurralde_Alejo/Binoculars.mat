@@ -30,8 +30,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Float0: 0.18
-    - _Float1: 0.38
+    - _Float0: 0.15
+    - _Float1: 0.44
     - __dirty: 0
     m_Colors:
     - _LeftEye: {r: 0.4, g: 0.5, b: 0, a: 0}
