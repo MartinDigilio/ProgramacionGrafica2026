@@ -20,12 +20,20 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _DistortionMask:
+        m_Texture: {fileID: 2800000, guid: ce8e3386b437db742bdf20e8d25cd3b4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: 48bc900158eaa6e40ac5f0bf9e16597e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Texture:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 5e6273e4e9a123746a4ecdab1f40ce4c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture0:
@@ -44,7 +52,7 @@ Material:
     m_Floats:
     - _Amount: 1
     - _ColorMask: 15
-    - _Scale: 0
+    - _Scale: 1
     - _Stencil: 0
     - _StencilComp: 8
     - _StencilOp: 0
