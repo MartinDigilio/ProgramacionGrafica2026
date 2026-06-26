@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ChaderMaterial
+  m_Name: WaterMaterial
   m_Shader: {fileID: 4800000, guid: a6098bf221e9776489913021a636bdf6, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
