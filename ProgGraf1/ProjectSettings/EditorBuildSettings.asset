@@ -5,94 +5,28 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/Island.unity
-    guid: 2cbefeef7d2526a439c712a56eeaeab5
-  - enabled: 0
-    path: Assets/Scenes/Road.unity
-    guid: 225ea452487199d44aebeda549bb69f9
-  - enabled: 0
-    path: Assets/Scenes/Room.unity
-    guid: e4f8f6ad1d0b3d64ead6350da4a36f69
-  - enabled: 0
-    path: Assets/Scenes/SinCity.unity
-    guid: f50aa837b5c69a34096b5473b7dcfd77
-  - enabled: 0
-    path: Assets/Scenes/Cartoon.unity
-    guid: 90d97b0b831b0be49825b73c093b364c
-  - enabled: 0
-    path: Assets/Scenes/Marker.unity
-    guid: a5e4babc55a144e47b4743c423f26192
-  - enabled: 0
-    path: Assets/Scenes/Ghost.unity
-    guid: 75b0b2c88e9f7e9498d75241c9c50a87
-  - enabled: 0
-    path: Assets/Scenes/Jump.unity
-    guid: 8e0e0d50911d3464c9362971ac6896d7
-  - enabled: 0
-    path: Assets/Scenes/Street.unity
-    guid: 0da0f79b971fdc94c8587763574b0c76
-  - enabled: 0
-    path: Assets/Deliver - Parcial 1/Insaurralde_Alejo_Island/Island.unity
-    guid: dfc3a13c201d61344ab2eadb3383ec9c
-  - enabled: 0
-    path: Assets/Deliver - Parcial 1/Facundo_Altini_Cartoon_Robot/Robot/Hologram.unity
-    guid: c9c64d103a9b5b34f9ddd601c21aa675
-  - enabled: 0
-    path: Assets/Deliver - Parcial 1/Martin_Digilio_PisoAldea/Martin_Digilio_PisoAldea.unity
-    guid: 0643ce657c1f71e4a972c415baf16b92
-  - enabled: 0
-    path: Assets/Deliver - Parcial 1/Gian_Schiavini_Room/Room.unity
-    guid: 111bb39672d7c144eb1aa0da188d22b3
-  - enabled: 0
-    path: Assets/Deliver - Parcial 1/Martin_Digilio_SinCity/Martin_Digilio_SinCity.unity
-    guid: 55cc27689c3891c4ab4c5779e3ace1ee
-  - enabled: 0
-    path: Assets/Deliver - Parcial 1/Facundo_Altini_Cartoon_Robot/Toon Characters/Cartoon.unity
-    guid: ce4e829073fbf3f4796a0dcdabad9d05
-  - enabled: 0
-    path: Assets/Deliver - Parcial 1/Gian_Schiavini_Marker/Marker.unity
-    guid: ebac3fb0678104645b585ce7cc6eeba1
-  - enabled: 0
-    path: Assets/Deliver - Parcial 1/Agustin_Praszek_Ghost_Jump/Ghost/Ghost.unity
-    guid: a2a75793b1612d34793b6cfd6fe707de
-  - enabled: 0
-    path: Assets/Deliver - Parcial 1/Agustin_Praszek_Ghost_Jump/Jump/Jump.unity
-    guid: 895ce237fd77b4e468850d5d71a3bc4a
-  - enabled: 0
-    path: Assets/Deliver - Parcial 1/Insaurralde_Alejo_Street/Street.unity
-    guid: 0f3efcd5505728f449d862fda4845a54
   - enabled: 1
-    path: Assets/Deliver - Parcial 2/Ej1_Dist_RenderText_DrawMesh_Insaurralde_Alejo/Ej1_DistRenderTextDrawMesh.unity
-    guid: 8deaec32ec2173e44bfac335a512b38f
+    path: Assets/ProyectoIntegrador/Scenes/PI_01.unity
+    guid: 23ea3345bdd97d047834ff36496be8bc
   - enabled: 1
-    path: Assets/Deliver - Parcial 2/Ej2_Distance_Insaurralde_Alejo/Ej2_Distance_Insaurralde_Alejo.unity
-    guid: 6d2a956bbdc74b84b8f4482f378bb35e
+    path: Assets/ProyectoIntegrador/Scenes/PI_02.unity
+    guid: ed0f77b82796d1b4f91c594f97dd66c6
   - enabled: 1
-    path: Assets/Deliver - Parcial 2/Ej3_Z-buffer_Praszek_Agustin/Ej3_Z-buffer.unity
-    guid: 04285a38f42b38944856e3468afb54cd
+    path: Assets/ProyectoIntegrador/Scenes/PI_03.unity
+    guid: 77502ad1ad1e1184ea0f06d4629fdcc8
   - enabled: 1
-    path: Assets/Deliver - Parcial 2/Ej4_Post-Process_Agustin_praszek/Ej4_Post_Process.unity
-    guid: 08046f2afcbf4874183d927fd89fe22c
+    path: Assets/ProyectoIntegrador/Scenes/PI_04.unity
+    guid: 35b8e8509ee659142ac8da0476ab7db3
   - enabled: 1
-    path: Assets/Deliver - Parcial 2/Ej5_Sprites_Digilio_Cura_Martin/WaterSprite.unity
-    guid: c31338bb2f9ed014aaa15e61ce5fc029
+    path: Assets/ProyectoIntegrador/Scenes/PI_05.unity
+    guid: 94054c384632c284689e343f670ea2ad
   - enabled: 1
-    path: Assets/Deliver - Parcial 2/Ej6_UI_Insaurralde_Alejo/Ej6.unity
-    guid: 798c9908f53f00c48beac50fc789c480
+    path: Assets/ProyectoIntegrador/Scenes/PI_06.unity
+    guid: 87eb01bc4611f0b4699cf13c14ebc636
   - enabled: 1
-    path: Assets/Deliver - Parcial 2/Ej7_Stencil_Facundo_Altini/Ej7_Stencil_Facundo_Altini.unity
-    guid: 15ea24f8fa7343c4ba5a2ceda6ef3ec4
+    path: Assets/ProyectoIntegrador/Scenes/PI_07.unity
+    guid: 4adbff8a31f742948af375c5e55ebe8c
   - enabled: 1
-    path: Assets/Deliver - Parcial 2/Ej8_Stencil_Insaurralde_Alejo/StencilTCG.unity
-    guid: 9b823f00f79f60342b7f40fa4b100cb2
-  - enabled: 1
-    path: Assets/Deliver - Parcial 2/Ej9_Proyector_Agustin_Praszek/Ej9-Proyector.unity
-    guid: 55be7f48747f9b046b635bf4ae75be45
-  - enabled: 1
-    path: Assets/Deliver - Parcial 2/Ej10_Projector_Facundo_Altini/Ej9_Projector_Facundo_Altini.unity
-    guid: 366660e7351817b49bc74cc4012f1c7b
-  - enabled: 1
-    path: Assets/Deliver - Parcial 2/Ej11_Projector_Sci-fi_Digilio_Cura_Martin/projector.unity
-    guid: 3c6da1d726d976a4eafed6c476c2b2df
+    path: Assets/ProyectoIntegrador/Scenes/PI_08.unity
+    guid: 4604c11a2482b074291459e05164101c
   m_configObjects: {}
