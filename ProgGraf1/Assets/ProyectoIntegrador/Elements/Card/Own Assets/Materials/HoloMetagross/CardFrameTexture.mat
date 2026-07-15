@@ -31,6 +31,14 @@ Material:
         m_Texture: {fileID: 2800000, guid: a3b6a8a1afdf7284cb136b49cc1887c2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _TextureSample2:
+        m_Texture: {fileID: 2800000, guid: 331aec60cfa778645824fb850c70a1ef, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample3:
+        m_Texture: {fileID: 2800000, guid: c317c95413d37f842bdf057c59a4fa78, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _texcoord:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -38,6 +46,14 @@ Material:
     m_Ints: []
     m_Floats:
     - _Cutoff: 0.5
+    - _HoloIntensity: 2
+    - _HoloIntensity1: 2
+    - _HoloTiling: 2
+    - _HoloTiling1: 1
+    - _ParallaxShift: 0
+    - _ParallaxShift1: 0
     - __dirty: 0
+    - _holospeed: 0.1
+    - _holospeed1: 0.1
     m_Colors: []
   m_BuildTextureStacks: []
