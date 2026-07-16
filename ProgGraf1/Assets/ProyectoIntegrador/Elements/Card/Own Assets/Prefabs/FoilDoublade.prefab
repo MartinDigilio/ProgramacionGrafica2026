@@ -296,7 +296,7 @@ MonoBehaviour:
   rotationSpeedH: 0.5
   rotationSpeedV: 0.13
   angleH: 40
-  angleV: 15
+  angleV: 1
 --- !u!1 &5536034248881457865
 GameObject:
   m_ObjectHideFlags: 0

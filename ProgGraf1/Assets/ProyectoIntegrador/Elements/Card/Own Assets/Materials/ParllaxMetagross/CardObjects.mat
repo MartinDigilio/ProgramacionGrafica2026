@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: FoilCardFrameTexture
-  m_Shader: {fileID: 4800000, guid: cc53e7fdbeb91a84499fc31d8d68e479, type: 3}
+  m_Name: CardObjects
+  m_Shader: {fileID: 4800000, guid: 8da1ada521778944f87a41f9c434e39f, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -23,20 +23,16 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _Backtexture:
-        m_Texture: {fileID: 2800000, guid: 6a3028354918d9c4babc90d154170b3f, type: 3}
+    - _Sprite:
+        m_Texture: {fileID: 2800000, guid: ce9352c8547b7764bba16829b46214a1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _FrontTexture:
-        m_Texture: {fileID: 2800000, guid: a1ce2e435936c6e498c056cbfdf06c52, type: 3}
+    - _TextureSample1:
+        m_Texture: {fileID: 2800000, guid: c317c95413d37f842bdf057c59a4fa78, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TextureSample2:
-        m_Texture: {fileID: 2800000, guid: 4e48330f1683f9d4584dcb0a9890d972, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _TextureSample3:
-        m_Texture: {fileID: 2800000, guid: 53dcaa3c106af184cbda2f24c4a6ec59, type: 3}
+        m_Texture: {fileID: 2800000, guid: 331aec60cfa778645824fb850c70a1ef, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
@@ -45,12 +41,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _ColorIntensity: 2
-    - _Cutoff: 0
-    - _HoloIntensity: 1
-    - _HoloTiling: 0.5
+    - _HoloIntensity: 0
+    - _HoloTiling: 2
     - _ParallaxShift: 0
     - __dirty: 0
-    - _holospeed: 5
+    - _holospeed: 1
     m_Colors: []
   m_BuildTextureStacks: []

@@ -42,9 +42,9 @@ Material:
     m_Ints: []
     m_Floats:
     - _Cutoff: 0
-    - _HoloIntensity: 0.5
-    - _HoloTiling: 0.2
+    - _HoloIntensity: -0.5
+    - _HoloTiling: -0.5
     - __dirty: 0
-    - _holospeed: 5
+    - _holospeed: 3
     m_Colors: []
   m_BuildTextureStacks: []
