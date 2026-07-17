@@ -566,6 +566,52 @@ MonoBehaviour:
   mouseSensitivity: 2
   minPitch: -80
   maxPitch: 80
+--- !u!1 &1254867922
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1254867924}
+  - component: {fileID: 1254867923}
+  m_Layer: 0
+  m_Name: portalblabalba
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1254867923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1254867922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbd613086d6db824e812c2af91215f5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  postProcessMaterial: {fileID: 2100000, guid: ca26b191d86778847b87bb6e460dd456, type: 2}
+  transitionSpeed: 0.1
+--- !u!4 &1254867924
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1254867922}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.8769114, y: -2.2305892, z: 6.9562125}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1257658581
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -658,6 +704,7 @@ GameObject:
   - component: {fileID: 1286421822}
   - component: {fileID: 1286421824}
   - component: {fileID: 1286421825}
+  - component: {fileID: 1286421826}
   m_Layer: 0
   m_Name: PlayerCamera
   m_TagString: Untagged
@@ -722,7 +769,7 @@ Camera:
     m_Bits: 4294967295
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 1
+  m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 1
   m_AllowMSAA: 1
@@ -739,6 +786,19 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1286421821}
   m_Enabled: 1
+--- !u!114 &1286421826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1286421821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d83cea97ca2f3242b476288b2f82ae3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: ca26b191d86778847b87bb6e460dd456, type: 2}
 --- !u!1 &1324011543
 GameObject:
   m_ObjectHideFlags: 0
@@ -980,7 +1040,7 @@ Camera:
     m_Bits: 4294967295
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 8400000, guid: d19113301ab51554a881116c484c0583, type: 2}
-  m_TargetDisplay: 0
+  m_TargetDisplay: 1
   m_TargetEye: 3
   m_HDR: 1
   m_AllowMSAA: 1
@@ -1062,3 +1122,4 @@ SceneRoots:
   - {fileID: 191488754}
   - {fileID: 871512664}
   - {fileID: 948543949}
+  - {fileID: 1254867924}
