@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SnapFrameTexture
+  m_Shader: {fileID: 4800000, guid: 1913d0f51f568de48b8c657f8a633788, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Backtexture:
+        m_Texture: {fileID: 2800000, guid: 6a3028354918d9c4babc90d154170b3f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BorderColor:
+        m_Texture: {fileID: 2800000, guid: c317c95413d37f842bdf057c59a4fa78, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BorderMap:
+        m_Texture: {fileID: 2800000, guid: c2fadad924ff4154d84235b1623da2ad, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FrontTexture:
+        m_Texture: {fileID: 2800000, guid: 7b1617cd9a7a01145b0b536351f5031c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GreenMask:
+        m_Texture: {fileID: 2800000, guid: 32f2bb0f7db94e04c9d54e074f7620ae, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RedMask:
+        m_Texture: {fileID: 2800000, guid: 412c273dbdc450e489b5df6f9faee51e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StreakMask:
+        m_Texture: {fileID: 2800000, guid: 1fe7fca7b7b05f74cbbbe014433e117d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample2:
+        m_Texture: {fileID: 2800000, guid: c317c95413d37f842bdf057c59a4fa78, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Cutoff: 0.5
+    - _GlimmerSpeed: 0.5
+    - _Intensity: 0.3
+    - __dirty: 0
+    m_Colors: []
+  m_BuildTextureStacks: []
