@@ -104,7 +104,9 @@ return F1;
 			voroi26 /= rest26;
 			float2 uv_TextureSample0 = i.uv_texcoord * _TextureSample0_ST.xy + _TextureSample0_ST.zw;
 			float4 temp_output_43_0 = ( pow( voroi26 , ( 1.0 - _Power ) ) * tex2D( _TextureSample0, uv_TextureSample0 ) );
-			o.Emission = ( _Color * temp_output_43_0 ).rgb;
+			float4 temp_output_39_0 = ( _Color * temp_output_43_0 );
+			o.Albedo = temp_output_39_0.rgb;
+			o.Emission = temp_output_39_0.rgb;
 			o.Alpha = temp_output_43_0.r;
 		}
 
@@ -187,7 +189,7 @@ return F1;
 }
 /*ASEBEGIN
 Version=18900
-304;426.4;1106.4;307.8;-272.9055;301.0478;2.262627;True;False
+0;73.6;974.2;283;-758.3015;392.2763;1.962627;True;False
 Node;AmplifyShaderEditor.RangedFloatNode;28;-908.0944,1.278687;Inherit;False;Property;_Speed;Speed;0;0;Create;True;0;0;0;False;0;False;2;0.66;0;0;0;1;FLOAT;0
 Node;AmplifyShaderEditor.SimpleTimeNode;30;-894.7921,-257.1605;Inherit;False;1;0;FLOAT;1;False;1;FLOAT;0
 Node;AmplifyShaderEditor.FunctionNode;17;-947.2965,267.0335;Inherit;False;Polar Coordinates;-1;;2;7dab8e02884cf104ebefaa2e788e4162;0;4;1;FLOAT2;0,0;False;2;FLOAT2;0.5,0.5;False;3;FLOAT;1;False;4;FLOAT;1;False;1;FLOAT2;0
@@ -218,7 +220,8 @@ WireConnection;43;0;34;0
 WireConnection;43;1;42;0
 WireConnection;39;0;38;0
 WireConnection;39;1;43;0
+WireConnection;0;0;39;0
 WireConnection;0;2;39;0
 WireConnection;0;9;43;0
 ASEEND*/
-//CHKSM=87B6D58932BA28E75A287E45F7F8FCA466FD86FB
+//CHKSM=BCC7BAAE973F46A722B6B23178E9A64076B1EB1E
