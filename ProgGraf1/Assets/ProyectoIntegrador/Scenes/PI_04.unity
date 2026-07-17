@@ -264,6 +264,7 @@ MonoBehaviour:
   - {fileID: 5177336240139431666, guid: 48cf3954aa67ee0448ca4b00087ec56e, type: 3}
   - {fileID: 6423405843929413156, guid: 846973c4d3989804aaebed44706e511a, type: 3}
   - {fileID: 620102035967111132, guid: f93aa2e6a0a27954c86198b059d1ccd5, type: 3}
+  - {fileID: 1929399625840988267, guid: 121f3363e8ca0ca42820e0d5b933955f, type: 3}
   - {fileID: 4355118620757660690, guid: 2c779b792ca7fd149abde427db678faf, type: 3}
   - {fileID: 6525457917705136539, guid: a086293cd84685a42b94f1d3b25fd51e, type: 3}
   - {fileID: 4725645203536471120, guid: aac5b9a8ea99da24a8796296a97e527c, type: 3}
@@ -280,8 +281,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1455608771}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.723, y: 2.66, z: -9.51}
+  m_LocalRotation: {x: 0, y: 0.309017, z: 0, w: 0.95105654}
+  m_LocalPosition: {x: -3.17, y: 2.66, z: -8.86}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

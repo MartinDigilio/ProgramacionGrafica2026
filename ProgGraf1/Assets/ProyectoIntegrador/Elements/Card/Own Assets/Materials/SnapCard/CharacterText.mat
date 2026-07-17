@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: NegativeCardFrameTexture
-  m_Shader: {fileID: 4800000, guid: 17b1757175075614c808f4500e0f0567, type: 3}
+  m_Name: CharacterText
+  m_Shader: {fileID: 4800000, guid: 7a545c612fed6f240bf307ca6d90495c, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -23,16 +23,8 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _Backtexture:
-        m_Texture: {fileID: 2800000, guid: 6a3028354918d9c4babc90d154170b3f, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _FrontTexture:
-        m_Texture: {fileID: 2800000, guid: 33881a67b994dc54ab5ad8b2f27a4cbd, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _TextureSample3:
-        m_Texture: {fileID: 2800000, guid: c317c95413d37f842bdf057c59a4fa78, type: 3}
+    - _Sprite:
+        m_Texture: {fileID: 2800000, guid: 043ef54892d61c84989eb8a5217f1091, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
@@ -41,10 +33,6 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Cutoff: 0
-    - _HoloIntensity: -0.5
-    - _HoloTiling: -0.5
     - __dirty: 0
-    - _holospeed: 3
     m_Colors: []
   m_BuildTextureStacks: []
